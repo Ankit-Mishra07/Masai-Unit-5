@@ -4,7 +4,7 @@ module.exports = {
     output : {
         path : path.join(__dirname, "build"), //FOLDER NAME
         filename : "bundle.js"
-    },
+    }, 
     module: {
         rules: [
           {
