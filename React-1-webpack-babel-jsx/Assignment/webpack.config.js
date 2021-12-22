@@ -4,7 +4,7 @@ module.exports = {
     entry : "./src/index.js",
     output : {
         path : path.join(__dirname, "build"),
-        filename: "build.js"
+        filename: "bundle.js"
     },
     module : {
         rules : [
@@ -12,6 +12,11 @@ module.exports = {
                 test : /\.css$/,
                 use : ["style-loader", "css-loader"],
             },
+            {
+                test :  /\.(png|jpg|gif)$/i,
+                use : ["file-loader"],
+                type: 'javascript/auto'
+            }
         ]
     },
     mode : "development",
