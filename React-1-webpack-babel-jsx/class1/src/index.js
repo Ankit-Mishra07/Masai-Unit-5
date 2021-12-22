@@ -7,7 +7,7 @@
 // }
 
  import {add, mult} from "./calc.js"
- import ("./index.css")
+ import "./index.css"
 console.log(add(5, 15))
 console.log(mult(3, 5))
 
