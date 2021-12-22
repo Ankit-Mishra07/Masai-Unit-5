@@ -1,3 +1,6 @@
 .redcolor {
     color: "red";
 }
+#root {
+    background-color: green;
+}

@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 4%;
+}
+
+.input_box{
+    display: flex;
+    flex-direction: column;
+}
+.output_box {
+    background-color: lightyellow;
+    border: 2px solid lightblue;
+    height: 560px;
+    overflow: auto;
+}
+
+#note_box {
+    color: green;
+    background-color: rgb(242, 247, 248);
+    resize: none;
+    width: 100%;
+    height: 500px;
+    font-size: 20px;
+}
+#title_box{
+    color: blue;
+    background-color:rgb(242, 247, 248) ;
+    resize: none;
+    width: 100%;
+    font-size: 22px;
+
+}
+.save_btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+}
+.showingTitle{
+    background-color: rgb(240, 240, 125);
+    margin-bottom: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.showingTitle:hover {
+    background-color: thistle;
+}
