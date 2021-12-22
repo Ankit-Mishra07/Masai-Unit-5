@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \".container {\\r\\n    display: grid;\\r\\n    grid-template-columns: 48% 48%;\\r\\n    grid-gap: 4%;\\r\\n}\\r\\n\\r\\n.input_box{\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n}\\r\\n.output_box {\\r\\n    background-color: lightyellow;\\r\\n    border: 2px solid lightblue;\\r\\n    height: 560px;\\r\\n    overflow: auto;\\r\\n}\\r\\n\\r\\n#note_box {\\r\\n    color: green;\\r\\n    background-color: rgb(242, 247, 248);\\r\\n    resize: none;\\r\\n    width: 100%;\\r\\n    height: 500px;\\r\\n    font-size: 20px;\\r\\n}\\r\\n#title_box{\\r\\n    color: blue;\\r\\n    background-color:rgb(242, 247, 248) ;\\r\\n    resize: none;\\r\\n    width: 100%;\\r\\n    font-size: 22px;\\r\\n\\r\\n}\\r\\n.save_btn{\\r\\n    padding: 10px 20px;\\r\\n    border-radius: 10px;\\r\\n    background-color: blue;\\r\\n    color: white;\\r\\n    font-weight: 500;\\r\\n}\\r\\n.showingTitle{\\r\\n    background-color: rgb(240, 240, 125);\\r\\n    margin-bottom: 10px;\\r\\n    padding: 15px;\\r\\n    cursor: pointer;\\r\\n}\\r\\n\\r\\n.showingTitle:hover {\\r\\n    background-color: thistle;\\r\\n}\\r\\n/* .logo {\\r\\n\\r\\n} */\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://assignment/./src/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"#root {\\r\\n    width: 90%;\\r\\n    margin: auto;\\r\\n}\\r\\n#logo {\\r\\n    width:100px;\\r\\n    height : 100px;\\r\\n}\\r\\n.container {\\r\\n    display: grid;\\r\\n    grid-template-columns: 48% 48%;\\r\\n    grid-gap: 4%;\\r\\n}\\r\\n\\r\\n.input_box{\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n}\\r\\n.output_box {\\r\\n    background-color: lightyellow;\\r\\n    border: 2px solid lightblue;\\r\\n    height: 460px;\\r\\n    overflow: auto;\\r\\n}\\r\\n\\r\\n#note_box {\\r\\n    color: green;\\r\\n    background-color: rgb(242, 247, 248);\\r\\n    resize: none;\\r\\n    width: 100%;\\r\\n    height: 400px;\\r\\n    font-size: 20px;\\r\\n}\\r\\n#title_box{\\r\\n    color: blue;\\r\\n    background-color:rgb(242, 247, 248) ;\\r\\n    resize: none;\\r\\n    width: 100%;\\r\\n    font-size: 22px;\\r\\n\\r\\n}\\r\\n.title_{\\r\\n    font-weight: 600;\\r\\n}\\r\\n.save_btn{\\r\\n    padding: 10px 20px;\\r\\n    border-radius: 10px;\\r\\n    background-color: blue;\\r\\n    color: white;\\r\\n    font-weight: 500;\\r\\n}\\r\\n.dlt_btn{\\r\\n    background-color: red;\\r\\n    color: white;\\r\\n    border-radius: 5px;\\r\\n    cursor: pointer;\\r\\n}\\r\\n.dlt_btn:hover {\\r\\n    background-color: white;\\r\\n    color: red;\\r\\n    border: 1px solid red;\\r\\n}\\r\\n.showingTitle{\\r\\n    background-color: rgb(240, 240, 125);\\r\\n    margin-bottom: 10px;\\r\\n    padding: 15px;\\r\\n    cursor: pointer;\\r\\n}\\r\\n\\r\\n.showingTitle:hover {\\r\\n    background-color: thistle;\\r\\n}\\r\\n/* .logo {\\r\\n\\r\\n} */\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://assignment/./src/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -37,6 +37,16 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 /***/ ((module) => {
 
 eval("\n\nmodule.exports = function (i) {\n  return i[1];\n};\n\n//# sourceURL=webpack://assignment/./node_modules/css-loader/dist/runtime/noSourceMaps.js?");
+
+/***/ }),
+
+/***/ "./src/images/OIP.jpg":
+/*!****************************!*\
+  !*** ./src/images/OIP.jpg ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"91341217acb887b214c417ee21471c77.jpg\");\n\n//# sourceURL=webpack://assignment/./src/images/OIP.jpg?");
 
 /***/ }),
 
@@ -116,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\r\n\r\nconst Data = `\r\n<img id=\"logo\" alt=\"\">\r\n<div class=\"container\">\r\n\r\n\r\n<div class=\"input_box\">\r\n<textarea id=\"title_box\"></textarea>\r\n<textarea id=\"note_box\">\r\n\r\n</textarea>\r\n<button class=\"save_btn\" id=\"save_btn\">Save</button>\r\n</div>\r\n\r\n<div class=\"output_box\">\r\n\r\n</div>\r\n\r\n\r\n\r\n</div>\r\n`\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Data);\r\n\r\n\r\n// const htmlData = () => {\r\n//     return (\r\n//         <div class=\"input_box\">\r\n// <textarea id=\"title_box\"></textarea>\r\n// <textarea id=\"note_box\">\r\n\r\n// </textarea>\r\n// <button class=\"save_btn\" id=\"save_btn\">Save</button>\r\n// </div>\r\n\r\n// <div class=\"output_box\">\r\n\r\n// </div>\r\n//     )\r\n// }\r\n\r\n{/* <div class=\"input_box\">\r\n<textarea id=\"title_box\"></textarea>\r\n<textarea id=\"note_box\">\r\n\r\n</textarea>\r\n<button class=\"save_btn\" id=\"save_btn\">Save</button>\r\n</div>\r\n\r\n<div class=\"output_box\">\r\n\r\n</div> */}\r\n\r\n\n\n//# sourceURL=webpack://assignment/./src/component.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\r\n\r\nconst Data = `\r\n<img id=\"logo\" alt=\"\">\r\n<div class=\"container\">\r\n\r\n\r\n<div class=\"input_box\">\r\n<textarea id=\"title_box\"></textarea>\r\n<textarea id=\"note_box\">\r\n\r\n</textarea>\r\n<button class=\"save_btn\" id=\"save_btn\">Save</button>\r\n</div>\r\n\r\n<div class=\"output_box\">\r\n\r\n</div>\r\n\r\n\r\n\r\n</div>\r\n`\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Data);\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://assignment/./src/component.js?");
 
 /***/ }),
 
@@ -126,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './images'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./component */ \"./src/component.js\");\n\r\n\r\n\r\n\r\n\r\n\r\nlet getRoot = document.querySelector(\"#root\");\r\ngetRoot.innerHTML = _component__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\r\n\r\nif (localStorage.getItem(\"notePad\") === null) {\r\n  localStorage.setItem(\"notePad\", JSON.stringify([]));\r\n}\r\n\r\nlet logo = document.getElementById(\"logo\");\r\nlogo.src = \"\";\r\n\r\nlet save_btn = document.getElementById(\"save_btn\");\r\nsave_btn.addEventListener(\"click\", SaveData);\r\nfunction SaveData() {\r\n  let getLocal = JSON.parse(localStorage.getItem(\"notePad\"));\r\n\r\n  let textArea = document.getElementById(\"note_box\");\r\n  let title_box = document.getElementById(\"title_box\");\r\n  let obj = {\r\n    title: title_box.value,\r\n    mytext: textArea.value,\r\n  };\r\n  if (title_box.value !== \"\" && textArea.value !== \"\") {\r\n    getLocal.push(obj);\r\n    title_box.value = \"\";\r\n\r\n    textArea.value = \"\";\r\n  } else {\r\n    alert(\"Title and content is required\");\r\n  }\r\n\r\n  localStorage.setItem(\"notePad\", JSON.stringify(getLocal));\r\n  location.reload(true);\r\n}\r\n\r\nlet output_box = document.querySelector(\".output_box\");\r\nlet getData = JSON.parse(localStorage.getItem(\"notePad\"));\r\nfunction Appendto(getData) {\r\n  getData.forEach((ele, index) => {\r\n    let div = document.createElement(\"div\");\r\n    div.setAttribute(\"class\", \"showingTitle\");\r\n\r\n    let p = document.createElement(\"p\");\r\n    p.innerText = ele.title;\r\n\r\n    let button = document.createElement(\"button\");\r\n    button.innerText = \"Delete || Update\";\r\n    button.onclick = function () {\r\n      DeleteData(index, div);\r\n    };\r\n    div.append(p, button);\r\n    div.onclick = function () {\r\n      ShowThatData(ele);\r\n    };\r\n\r\n    output_box.appendChild(div);\r\n  });\r\n}\r\nAppendto(getData);\r\nlocalStorage.setItem(\"notePad\", JSON.stringify(getData));\r\n\r\nfunction DeleteData(index, div) {\r\n  let getDLocal = JSON.parse(localStorage.getItem(\"notePad\"));\r\n\r\n  console.log(index);\r\n  getDLocal.splice(index, 1);\r\n  localStorage.setItem(\"notePad\", JSON.stringify(getDLocal));\r\n  div.remove();\r\n}\r\nfunction ShowThatData(ele) {\r\n  let textArea = document.getElementById(\"note_box\");\r\n  let title_box = document.getElementById(\"title_box\");\r\n  textArea.value = ele.mytext;\r\n  title_box.value = ele.title;\r\n}\r\n\n\n//# sourceURL=webpack://assignment/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _images_OIP_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/OIP.jpg */ \"./src/images/OIP.jpg\");\n/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./component */ \"./src/component.js\");\n\r\n\r\n\r\n\r\n\r\n\r\nlet getRoot = document.querySelector(\"#root\");\r\ngetRoot.innerHTML = _component__WEBPACK_IMPORTED_MODULE_2__[\"default\"];\r\n\r\nif (localStorage.getItem(\"notePad\") === null) {\r\n  localStorage.setItem(\"notePad\", JSON.stringify([]));\r\n}\r\n\r\nlet logo = document.getElementById(\"logo\");\r\nlogo.src = _images_OIP_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"];\r\n\r\n// Saving Data\r\n\r\nlet save_btn = document.getElementById(\"save_btn\");\r\nsave_btn.addEventListener(\"click\", SaveData);\r\nfunction SaveData() {\r\n  let getLocal = JSON.parse(localStorage.getItem(\"notePad\"));\r\n\r\n  let textArea = document.getElementById(\"note_box\");\r\n  let title_box = document.getElementById(\"title_box\");\r\n  let obj = {\r\n    title: title_box.value,\r\n    mytext: textArea.value,\r\n  };\r\n  if (title_box.value !== \"\" && textArea.value !== \"\") {\r\n    getLocal.push(obj);\r\n    title_box.value = \"\";\r\n\r\n    textArea.value = \"\";\r\n  } else {\r\n    alert(\"Title and content is required\");\r\n  }\r\n\r\n  localStorage.setItem(\"notePad\", JSON.stringify(getLocal));\r\n  location.reload(true);\r\n}\r\n\r\n\r\n// Getting Data\r\n\r\nlet output_box = document.querySelector(\".output_box\");\r\nlet getData = JSON.parse(localStorage.getItem(\"notePad\"));\r\nfunction Appendto(getData) {\r\n  getData.forEach((ele, index) => {\r\n    let div = document.createElement(\"div\");\r\n    div.setAttribute(\"class\", \"showingTitle\");\r\n\r\n    let p = document.createElement(\"p\");\r\n    p.setAttribute(\"class\", \"title_\")\r\n    p.innerText = ele.title;\r\n\r\n    let button = document.createElement(\"button\");\r\n    button.setAttribute(\"class\", \"dlt_btn\")\r\n    button.innerText = \"Delete || Update\";\r\n    button.onclick = function () {\r\n      DeleteData(index, div);\r\n    };\r\n    div.append(p, button);\r\n    div.onclick = function () {\r\n      ShowThatData(ele);\r\n    };\r\n\r\n    output_box.appendChild(div);\r\n  });\r\n}\r\nAppendto(getData);\r\nlocalStorage.setItem(\"notePad\", JSON.stringify(getData));\r\n\r\n\r\n//Deleting Data\r\n\r\nfunction DeleteData(index, div) {\r\n  let getDLocal = JSON.parse(localStorage.getItem(\"notePad\"));\r\n\r\n  console.log(index);\r\n  getDLocal.splice(index, 1);\r\n  localStorage.setItem(\"notePad\", JSON.stringify(getDLocal));\r\n  div.remove();\r\n}\r\n\r\n\r\n//Showing Perticular Data\r\nfunction ShowThatData(ele) {\r\n  let textArea = document.getElementById(\"note_box\");\r\n  let title_box = document.getElementById(\"title_box\");\r\n  textArea.value = ele.mytext;\r\n  title_box.value = ele.title;\r\n}\r\n\n\n//# sourceURL=webpack://assignment/./src/index.js?");
 
 /***/ })
 
@@ -181,6 +191,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -195,6 +217,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/

@@ -24,31 +24,4 @@ const Data = `
 export default Data
 
 
-// const htmlData = () => {
-//     return (
-//         <div class="input_box">
-// <textarea id="title_box"></textarea>
-// <textarea id="note_box">
-
-// </textarea>
-// <button class="save_btn" id="save_btn">Save</button>
-// </div>
-
-// <div class="output_box">
-
-// </div>
-//     )
-// }
-
-{/* <div class="input_box">
-<textarea id="title_box"></textarea>
-<textarea id="note_box">
-
-</textarea>
-<button class="save_btn" id="save_btn">Save</button>
-</div>
-
-<div class="output_box">
-
-</div> */}
 

@@ -13,10 +13,13 @@ module.exports = {
                 use : ["style-loader", "css-loader"],
             },
             {
-                test :  /\.(png|jpg|gif)$/i,
-                use : ["file-loader"],
-                type: 'javascript/auto'
-            }
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                  {
+                    loader: 'file-loader',
+                  },
+                ],
+            },
         ]
     },
     mode : "development",

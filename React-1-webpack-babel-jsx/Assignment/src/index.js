@@ -1,6 +1,6 @@
 import "./index.css";
 
-import "./images";
+import Logo from "./images/OIP.jpg"
 
 import Data from "./component";
 
@@ -12,7 +12,9 @@ if (localStorage.getItem("notePad") === null) {
 }
 
 let logo = document.getElementById("logo");
-logo.src = "";
+logo.src = Logo;
+
+// Saving Data
 
 let save_btn = document.getElementById("save_btn");
 save_btn.addEventListener("click", SaveData);
@@ -38,6 +40,9 @@ function SaveData() {
   location.reload(true);
 }
 
+
+// Getting Data
+
 let output_box = document.querySelector(".output_box");
 let getData = JSON.parse(localStorage.getItem("notePad"));
 function Appendto(getData) {
@@ -46,9 +51,11 @@ function Appendto(getData) {
     div.setAttribute("class", "showingTitle");
 
     let p = document.createElement("p");
+    p.setAttribute("class", "title_")
     p.innerText = ele.title;
 
     let button = document.createElement("button");
+    button.setAttribute("class", "dlt_btn")
     button.innerText = "Delete || Update";
     button.onclick = function () {
       DeleteData(index, div);
@@ -64,6 +71,9 @@ function Appendto(getData) {
 Appendto(getData);
 localStorage.setItem("notePad", JSON.stringify(getData));
 
+
+//Deleting Data
+
 function DeleteData(index, div) {
   let getDLocal = JSON.parse(localStorage.getItem("notePad"));
 
@@ -72,6 +82,9 @@ function DeleteData(index, div) {
   localStorage.setItem("notePad", JSON.stringify(getDLocal));
   div.remove();
 }
+
+
+//Showing Perticular Data
 function ShowThatData(ele) {
   let textArea = document.getElementById("note_box");
   let title_box = document.getElementById("title_box");
