@@ -2,15 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const sty = {
-    color : "green",
-    fontSize : "40px"
-  }
+
+  
   return (
     <div className="App">
-      
-      <h1 style={{color: "red"}}>Hello React</h1>
-      <h1 style={sty}>Hello React Again</h1>
+      <div style={{color: "blue"}}>{[1, 2, 3, 4, 5].map((e) => (
+        <h1>Hello {e}</h1>
+      ))} </div>
     
     </div>
   );
