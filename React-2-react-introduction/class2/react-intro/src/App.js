@@ -8,20 +8,22 @@ function App() {
   return (
 
     <div className="App">
-      {Todos()}
       <Todos />
       <div style={{color: "blue"}}>{arr.map((e) => (
-        <h1>Hello {e}</h1>
+       
+        <Todos num={e}/>
+        
       ))} </div>
+      <Todos />
     
     </div>
   );
 }
 
-function Todos() {
+function Todos({num}) {
   return (
     <>
-    <h1>Hi Ankit</h1>
+    <h1>Hi Ankit {num}</h1>
     </>
   )
 }
