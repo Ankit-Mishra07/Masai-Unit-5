@@ -16,12 +16,12 @@ const Todo = () => {
         setList([...list,payload])
     }
 
-    const handleToggle = (e) => {
-           const getfil =  list.filter((id) => {
-                return e.id == id
+    const handleToggle = (id) => {
+           const getfil =  list.filter((curelem) => {
+                return curelem.id !== id
             })
 
-            setList([...getfil])
+            setList(getfil)
     }
 
 
