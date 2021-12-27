@@ -1,4 +1,5 @@
 import React from 'react'
+import "./styles/GroceryList.css"
 
 const GroceryList = ({curdata, deleteItem}) => {
 
@@ -8,10 +9,10 @@ const GroceryList = ({curdata, deleteItem}) => {
 
     return (
         <>
-            
+            <div className='ListItems'>
                 <div>{title}</div>
-                <button onClick={() => deleteItem(id)}>Purchased</button>
-        
+                <button className='purchased' onClick={() => deleteItem(id)}>Purchased</button>
+            </div>
         </>
     )
 }

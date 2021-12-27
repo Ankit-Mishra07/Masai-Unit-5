@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import GroceryInput from './GroceryInput'
 import GroceryList from './GroceryList'
 import { nanoid } from 'nanoid'
-
+import "./styles/Grocery.css"
 // if(localStorage.getItem("ReactTodo") === null) {
 //     localStorage.setItem("ReactTodo", JSON.stringify([]))
 // }
@@ -52,8 +52,11 @@ const Grocery = () => {
     
     return (
         <>
+        <h1 className='head'>Grocery List</h1>
 
         <GroceryInput getInput={handleInput}/>
+
+        <div className='Alldata'>
 
         {
             list.map((curElem) => (
@@ -61,6 +64,8 @@ const Grocery = () => {
                 <GroceryList key={curElem.id} curdata={curElem} deleteItem={handledelete}/>
             ))
         }
+
+        </div>
         </>
     )
 }

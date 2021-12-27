@@ -1,0 +1,16 @@
+.Alldata{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+    padding:10px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    width: 30%;
+    height: 400px;
+    margin:auto;
+    overflow: auto;
+    margin-top: 30px;
+}
+.head{
+    color: indigo;
+}
