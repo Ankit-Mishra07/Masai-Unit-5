@@ -8,6 +8,10 @@ const GroceryInput = ({getInput}) => {
 
 
     const handleInput = () => {
+        if(!inputText) {
+            alert("Please Fill Required Item")
+            return
+        }
             getInput(inputText)
             setInputText("")
     }

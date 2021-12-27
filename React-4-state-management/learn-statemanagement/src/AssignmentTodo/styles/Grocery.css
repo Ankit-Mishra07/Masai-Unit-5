@@ -1,5 +1,5 @@
 .Alldata{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #1A237E;
     margin-top: 20px;
     padding:10px 20px;
     font-size: 20px;
@@ -10,6 +10,9 @@
     margin:auto;
     overflow: auto;
     margin-top: 30px;
+    /* box-shadow:5px 5px 5px 5px rgba(0, 0, 0, 0.5); */
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), -0.2em 0 .2em rgba(0, 0, 0, 0.5);
+
 }
 .head{
     color: indigo;
