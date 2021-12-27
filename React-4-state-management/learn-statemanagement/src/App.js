@@ -1,13 +1,15 @@
 import './App.css';
-import ChildtoParent from './Preclass/ParenttoChild';
-import ParenttoChild from './Preclass/ParenttoChild';
+// import ChildtoParent from './Preclass/ChildtoParent';
+// import ParenttoChild from './Preclass/ParenttoChild';
+// import Siblings from './Preclass/Siblings';
 
 
 function App() {
   return (
     <div className="App">
-      <ParenttoChild />
+      {/* <ParenttoChild />
       <ChildtoParent />
+      <Siblings /> */}
     </div>
   );
 }

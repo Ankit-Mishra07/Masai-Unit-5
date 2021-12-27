@@ -12,7 +12,7 @@ const Child = ({value, handleDecrement, handleIncrement}) => (
 
 );
 
-const ParenttoChild = () => {
+const ChildtoParent = () => {
     const [count, setCount] = useState(0)
     const HandleChange = (value) => {
         setCount(count + value)
@@ -27,4 +27,4 @@ const ParenttoChild = () => {
     )
 }
 
-export default ParenttoChild
+export default ChildtoParent

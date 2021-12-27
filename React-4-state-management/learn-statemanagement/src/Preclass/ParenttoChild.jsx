@@ -2,7 +2,7 @@ import React ,{useState} from 'react'
 
 const Child = ({value}) => <h1>Count is  : {value}</h1>;
 
-const ChildtoParent = () => {
+const ParenttoChild= () => {
     const [count, setCount] = useState(0)
     return (
         <div>
@@ -14,4 +14,4 @@ const ChildtoParent = () => {
     )
 }
 
-export default ChildtoParent
+export default ParenttoChild
