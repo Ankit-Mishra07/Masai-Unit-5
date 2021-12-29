@@ -10,6 +10,7 @@
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin-left: 2%;
+    height: 400px;
 }
 
 .input_boxes > span {
@@ -67,4 +68,49 @@
     margin-top: 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.button_box{
+    margin-left: 2%;
+}
+
+.button_box > button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.next {
+
+    background-color: lightsteelblue;
+    color: rgb(4, 16, 51);
+    font-weight: 600;
+
+}
+.prev {
+    
+    background-color: lightsteelblue;
+    color: rgb(4, 16, 51);
+    font-weight: 600;
+
+}
+
+.asc {
+    
+    background-color: lightsteelblue;
+    color: rgb(4, 16, 51);
+    font-weight: 600;
+
+}
+
+.desc {
+    
+    background-color: lightsteelblue;
+    color: rgb(4, 16, 51);
+    font-weight: 600;
+
 }

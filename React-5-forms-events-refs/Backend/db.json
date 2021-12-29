@@ -86,6 +86,26 @@
       "marital": true,
       "file": "blob:http://localhost:3000/8e311f83-6df7-44fe-abad-88ad4eefe418",
       "id": 15
+    },
+    {
+      "username": "wvwed",
+      "age": "2",
+      "address": "sd",
+      "department": "d2",
+      "salary": "2",
+      "marital": "",
+      "file": "blob:http://localhost:3000/dda53aed-63f3-4c0e-9dfc-83ee3a664f48",
+      "id": 16
+    },
+    {
+      "username": "wvwed",
+      "age": "2",
+      "address": "sd",
+      "department": "d2",
+      "salary": "2",
+      "marital": "",
+      "file": "blob:http://localhost:3000/dda53aed-63f3-4c0e-9dfc-83ee3a664f48",
+      "id": 17
     }
   ]
 }

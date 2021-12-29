@@ -10,6 +10,8 @@ const Form2 = () => {
 
     const [data, setData] = useState([])
 
+    const [ord, setOrd] = useState("ASC")
+
     const [form, setForm] = useState({
     username : "",
     age : "",
@@ -31,14 +33,13 @@ const Form2 = () => {
     })
     }
 
-
+    
     const getData = (page) => {
-        fetch(`http://localhost:5000/users?_sort=salary&order=ASC&_page=${page}&_limit=3`)
+        fetch(`http://localhost:5000/users?_page=${page}&_limit=3&_sort=salary&_order=${ord}`)
         .then(d => d.json())
         .then((res) => setData(res))
     }
 
-    let flag = true
 
     // useEffect(() => {
     //   getData(page)
@@ -47,18 +48,10 @@ const Form2 = () => {
     useEffect(() => {
 
         getData(page)
-    })
+    },[data])
 
 
-    // const InSort = () => {
-    //   fetch(`http://localhost:5000/users?_sort=salary&order=ASC&_page=${page}&_limit=3`)
-    //     .then(d => d.json())
-    //     .then((res) => setData(res))
-    // }
 
-    // const DeSort = () => {
-      
-    // }
 
     const handleDelete = (id) => {
         fetch(`http://localhost:5000/users/${id}`, {
@@ -69,7 +62,7 @@ const Form2 = () => {
           }).then(() => {
           
             getData()
-
+            setForm({})
           })
     }
 
@@ -176,12 +169,12 @@ const Form2 = () => {
 
 
 </div>
-    <div>
+    <div className="button_box">
 
-    <button onClick={() => setPage(page - 1)}>PREV</button>
-    <button onClick={() => setPage(page + 1)}>NEXT</button>
-    <button >Accending</button>
-    <button >Decending</button>
+    <button className="prev" disabled={page === 1} onClick={() => setPage(page - 1)}>PREV</button>
+    <button className="next" onClick={() => setPage(page + 1)}>NEXT</button>
+    <button className="asc" onClick={() => setOrd("ASC")}>Accending</button>
+    <button className="desc" onClick={() => setOrd("DESC")}>Decending</button>
     </div>
 </>
   );
