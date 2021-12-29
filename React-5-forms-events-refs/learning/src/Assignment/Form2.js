@@ -173,8 +173,8 @@ const Form2 = () => {
 
     <button className="prev" disabled={page === 1} onClick={() => setPage(page - 1)}>PREV</button>
     <button className="next" onClick={() => setPage(page + 1)}>NEXT</button>
-    <button className="asc" onClick={() => setOrd("ASC")}>Accending</button>
-    <button className="desc" onClick={() => setOrd("DESC")}>Decending</button>
+    <button className="asc" onClick={() => setOrd("ASC")}>Increasing Order By Salary</button>
+    <button className="desc" onClick={() => setOrd("DESC")}>Decreasing Order By Salary</button>
     </div>
 </>
   );

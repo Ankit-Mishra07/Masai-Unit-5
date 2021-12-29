@@ -72,6 +72,7 @@
 
 .button_box{
     margin-left: 2%;
+    margin-top: 40px;
 }
 
 .button_box > button {
@@ -82,6 +83,7 @@
     outline: none;
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 
 }
 .next {
