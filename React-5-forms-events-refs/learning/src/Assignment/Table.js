@@ -15,6 +15,7 @@ const Table = ({data, handleDelete}) => {
                 <div>Salary</div>
                 <div>Marital Status</div>
                 <div>Profile Photo</div>
+                <div>Remove</div>
             </div>
 
 

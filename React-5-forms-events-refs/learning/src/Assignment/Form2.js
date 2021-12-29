@@ -83,7 +83,7 @@ const Form2 = () => {
 
   return (
 
-    <>
+    <div className="MainBox">
     <div className="input_boxes">
       <input
       className="input-text"
@@ -134,9 +134,11 @@ const Form2 = () => {
       <br />
       
       <span>Married</span>
-      <input type="checkbox" name="marital" onChange={handleChange} /> <br />
+      <input className="inputcheckbox" type="checkbox" name="marital" onChange={handleChange} /> <br /> <br /><br />
       
+      <span>Choose Your Profile Photo</span>
       <input
+      className="mypic"
         type="file"
         name="profile"
         onChange={handleChange}
@@ -145,12 +147,12 @@ const Form2 = () => {
       />{" "}
       <br />
       
-      <button onClick={PostData}>Add Data</button>
+      <button className="SaveData" onClick={PostData}>Save</button>
     </div>
 
 <Table data={data} handleDelete={handleDelete}/>
 
-</>
+</div>
   );
 };
 
