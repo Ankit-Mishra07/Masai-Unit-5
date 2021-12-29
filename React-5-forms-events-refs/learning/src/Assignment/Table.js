@@ -1,8 +1,24 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import TableItem from './TableItem'
 import "./Table.css"
 
 const Table = ({data, handleDelete}) => {
+
+
+    // const [list, setList] = useState(data)
+    
+
+    // const InSort = () => {
+    //     let newData = list.sort((x, y) => x.salary - y.salary)
+    //     console.log(newData)
+    //     setList([...newData, list])
+    //   }
+  
+    //   const DeSort = () => {
+        
+    //   }
+
+
     return (
         <>
 
@@ -28,6 +44,11 @@ const Table = ({data, handleDelete}) => {
                 
             </div>
         </div>
+
+        {/* <div>
+        <button onClick={InSort}>Accending</button>
+    <button onClick={() => DeSort}>Decending</button>
+        </div> */}
             
         </>
     )

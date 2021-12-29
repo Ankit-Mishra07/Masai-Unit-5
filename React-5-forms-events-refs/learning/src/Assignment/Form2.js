@@ -6,6 +6,7 @@ const Form2 = () => {
 
     const ref = useRef(null)
 
+    const [page, setPage] = useState(1)
 
     const [data, setData] = useState([])
 
@@ -31,15 +32,33 @@ const Form2 = () => {
     }
 
 
-    const getData = () => {
-        fetch("http://localhost:5000/users")
+    const getData = (page) => {
+        fetch(`http://localhost:5000/users?_sort=salary&order=ASC&_page=${page}&_limit=3`)
         .then(d => d.json())
         .then((res) => setData(res))
     }
 
+    let flag = true
+
+    // useEffect(() => {
+    //   getData(page)
+    // },[page])
+
     useEffect(() => {
-        getData()
+
+        getData(page)
     })
+
+
+    // const InSort = () => {
+    //   fetch(`http://localhost:5000/users?_sort=salary&order=ASC&_page=${page}&_limit=3`)
+    //     .then(d => d.json())
+    //     .then((res) => setData(res))
+    // }
+
+    // const DeSort = () => {
+      
+    // }
 
     const handleDelete = (id) => {
         fetch(`http://localhost:5000/users/${id}`, {
@@ -80,8 +99,10 @@ const Form2 = () => {
           })
     }
 
-
+  
   return (
+
+    <>
 
     <div className="MainBox">
     <div className="input_boxes">
@@ -124,7 +145,7 @@ const Form2 = () => {
       <br />
 
       <select className="inputdepart" name="department" id="" onChange={handleChange}>
-        <option value="" selected>
+        <option  selected>
           Choose Department
         </option>
         <option value="d1">D1</option>
@@ -152,7 +173,17 @@ const Form2 = () => {
 
 <Table data={data} handleDelete={handleDelete}/>
 
+
+
 </div>
+    <div>
+
+    <button onClick={() => setPage(page - 1)}>PREV</button>
+    <button onClick={() => setPage(page + 1)}>NEXT</button>
+    <button >Accending</button>
+    <button >Decending</button>
+    </div>
+</>
   );
 };
 

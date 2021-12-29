@@ -28,7 +28,7 @@ const TableItem = ({form, handleDelete}) => {
             </div>
             <div>
 
-            <button onClick={() => handleDelete(id)}>Delete</button>
+            <button className='deleted' onClick={() => handleDelete(id)}>Delete</button>
             </div>
         </div>
     )
