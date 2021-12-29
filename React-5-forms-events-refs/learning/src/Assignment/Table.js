@@ -6,7 +6,7 @@ const Table = ({data, handleDelete}) => {
     return (
         <>
 
-        <div>
+        <div className='showbox'>
             <div className='HeadingTab'>
                 <div>Name</div>
                 <div>Age</div>
@@ -19,7 +19,7 @@ const Table = ({data, handleDelete}) => {
             </div>
 
 
-            <div>
+            <div className='listItems'>
             {  data.map((elem) => (
                 <TableItem key={elem.id} form={elem} handleDelete={handleDelete}/>
             ))

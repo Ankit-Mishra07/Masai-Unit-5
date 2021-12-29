@@ -26,8 +26,10 @@ const TableItem = ({form, handleDelete}) => {
             <div className='img_box'>
                 <img src={file} alt="" />
             </div>
+            <div>
 
             <button onClick={() => handleDelete(id)}>Delete</button>
+            </div>
         </div>
     )
 }
