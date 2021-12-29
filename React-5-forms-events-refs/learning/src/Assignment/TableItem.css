@@ -1,0 +1,12 @@
+.img_box {
+    width: 60px;
+
+}
+
+.img_box img {
+    width: 100%;
+}
+.main_box {
+    display: flex;
+    margin-left: 10%;
+}

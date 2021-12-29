@@ -1,0 +1,6 @@
+.HeadingTab{
+    display: flex;
+}
+.HeadingTab > div {
+    margin: 20px;
+}

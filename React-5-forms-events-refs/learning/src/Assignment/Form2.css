@@ -1,0 +1,26 @@
+.input_boxes{
+    background-color: rgb(186, 197, 197);
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: 2%;
+}
+.input-text {
+    margin-top: 15px;
+    width: 80%;
+    padding: 5px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: 1px solid lightcyan;
+    font-size: 16px;
+}
+
+.inputdepart{
+    float: left;
+    margin-left: 7%;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 16px;
+}
