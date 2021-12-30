@@ -23,7 +23,10 @@ const Form2 = () => {
 
 
     const handleChange = (e) => {
-    let file = URL.createObjectURL(ref.current.files[0])
+      let file;
+        if(ref.current.files.length !== 0){
+            file = URL.createObjectURL(ref.current.files[0]);
+          }
     let  {name , value, checked, type} = e.target
     value = type === "checkbox" ? checked : value;
     setForm({
