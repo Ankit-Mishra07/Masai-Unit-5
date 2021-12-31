@@ -1,9 +1,11 @@
 import './App.css';
-import Navbar from './Preclass/Navbar';
+import Styled from './Class/Styled';
+// import Navbar from './Preclass/Navbar';
 function App() {
   return (
     <div className="App">
-     <Navbar />
+     {/* <Navbar /> */}
+     <Styled />
     </div>
   );
 }
