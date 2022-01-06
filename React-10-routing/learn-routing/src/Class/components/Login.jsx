@@ -22,7 +22,7 @@ const Login = () => {
             <input type="text" name='password'  onClick={(e) => handleChange(e)} placeholder='password'/>
             <button onClick={() => {
             handleToken("1234567")
-            navigate("/users")
+            navigate(-1)
             }}>SingIn</button>
         </div>
     )
