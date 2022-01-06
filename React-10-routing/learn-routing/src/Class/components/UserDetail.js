@@ -1,10 +1,13 @@
-import React,{useState, useEffect} from 'react'
-import { useParams } from 'react-router-dom'
+import React,{useState, useEffect, useContext} from 'react'
+import { useParams,  Navigate} from 'react-router-dom'
+// import { AuthContext } from '../Context/AuthContext';
 
 const UserDetail = () => {
 
     const {id} = useParams();
     const [data, setdata] = useState({})
+
+    // const {token} = useContext(AuthContext)
 
     const getData = async() => {
         let res = await fetch(`https://reqres.in/api/users/${id}`)
@@ -14,7 +17,11 @@ const UserDetail = () => {
     }
     useEffect(() => {
        getData()
-    }, [])
+    }, [id])
+
+    // if(!token) {
+    //     return <Navigate to={"/login"}/>
+    // }
     return (
         <div>
             <div>

@@ -19,9 +19,9 @@ const Users = () => {
             {
                 data.map((e) => (
                     <Link to={`/users/${e.id}`}>
-                    <div>
+                    {/* <div>
                         <img src={e.avatar} alt="" />
-                    </div>
+                    </div> */}
                     <div>{e.first_name}</div>
                     <div>{e.email}</div>
                     </Link>
