@@ -1,12 +1,13 @@
 import React from "react";
 import { addCounter, reduceCounter } from "../Redux/action";
 import { store } from "../Redux/store";
-import { useState } from "react";
+import { useState , useContext} from "react";
+import { AppContext } from "../Redux/AppContextProvider";
 
 const Counter = () => {
-  const { counter } = store.getState();
-  const { dispatch } = store;
-  const [state, setstate] = useState(0);
+    const [state, setstate] = useState(0);
+    const { dispatch, getState } = useContext(AppContext);
+    const { counter } = getState();
 
     const forceUpdate = () => setstate(state + 1)
 

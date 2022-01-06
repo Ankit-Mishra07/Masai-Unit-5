@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {store} from "./Redux/store"
+import { AppContextProvider } from './Redux/AppContextProvider';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppContextProvider store={store}>
+        <App />
+    </AppContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
