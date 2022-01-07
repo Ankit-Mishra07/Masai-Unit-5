@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+h1{
+  color: blue;
+}
 
 /* 
 @media (prefers-reduced-motion: no-preference) {
