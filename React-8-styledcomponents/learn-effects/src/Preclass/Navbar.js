@@ -10,7 +10,7 @@ const NavBarWrapper = styled.header`
 
 const Logo = styled.div`
 position : absolute;
-to:24px;
+top:24px;
 left : 30px;
 height: 60px;
 `;
@@ -21,7 +21,7 @@ font-family : gotham ssm a, gotham ssm b, sans-serif;
   position : absolute;
   top : 24px;
   right : 40px;
-    letter-spacing : 1px
+    letter-spacing : 1px;
   `;
 
 const Button = styled.button`
