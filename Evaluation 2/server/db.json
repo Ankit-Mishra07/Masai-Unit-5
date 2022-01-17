@@ -1,0 +1,78 @@
+{
+  "jobs": [
+    {
+      "company_name": "name1",
+      "job_title": "job1",
+      "salary_range": "11000",
+      "description": "wwwwwwwwwwwwwwwwwww",
+      "location": "mumbai",
+      "jobtype": "IA",
+      "id": 1
+    },
+    {
+      "company_name": "BE",
+      "job_title": "sdfgh",
+      "salary_range": "2345",
+      "description": "sdfg",
+      "location": "up",
+      "jobtype": "ia",
+      "id": 2
+    },
+    {
+      "company_name": "masaischool",
+      "job_title": "IA",
+      "salary_range": "60000",
+      "description": "IA fvheiw",
+      "location": "home",
+      "jobtype": "remote",
+      "id": 3
+    },
+    {
+      "company_name": "eywuiao",
+      "job_title": "IA",
+      "salary_range": "5000",
+      "description": "wwwwwwwwwwwwwwwwwww",
+      "location": "mumbai",
+      "jobtype": "work from home",
+      "id": 4
+    },
+    {
+      "company_name": "eywuiao",
+      "job_title": "IA",
+      "salary_range": "5000",
+      "description": "wwwwwwwwwwwwwwwwwww",
+      "location": "mumbai",
+      "jobtype": "work from home",
+      "id": 5
+    }
+  ],
+  "applied": [
+    {
+      "company_name": "name1",
+      "job_title": "job1",
+      "salary_range": "1000",
+      "description": "wwwwwwwwwwwwwwwwwww",
+      "location": "mumbai",
+      "jobtype": "IA",
+      "id": 1
+    },
+    {
+      "company_name": "masaischool",
+      "job_title": "IA",
+      "salary_range": "60000",
+      "description": "IA fvheiw",
+      "location": "home",
+      "jobtype": "remote",
+      "id": 3
+    },
+    {
+      "company_name": "eywuiao",
+      "job_title": "IA",
+      "salary_range": "5000",
+      "description": "wwwwwwwwwwwwwwwwwww",
+      "location": "mumbai",
+      "jobtype": "work from home",
+      "id": 5
+    }
+  ]
+}
